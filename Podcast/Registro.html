@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Insertar Usuario</title>
+</head>
+<body>
+
+    <h2>Registrar Usuario</h2>
+
+    <form action="Register.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br>
+        
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br>
+        
+        <label for="celular">Celular:</label><br>
+        <input type="text" id="celular" name="celular"><br>
+
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" id="contraseña" name="contraseña"><br>
+        
+        <input type="submit" value="Registrar">
+    </form>
+
+    <ul>
+        <h3>¿Ya tienes una cuenta?</h3>
+        <li>
+            <button id="Login"><a href="Login.html">¡Inicia Sesión aquí!</a></button>
+        </li>
+    </ul>
+
+</body>
+</html>
